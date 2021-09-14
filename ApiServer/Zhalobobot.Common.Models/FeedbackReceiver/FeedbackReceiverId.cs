@@ -7,15 +7,11 @@ namespace Zhalobobot.Common.Models.FeedbackReceiver
 {
     public class FeedbackReceiverId : EntityId
     {
-        private static readonly IReadOnlyCollection<EntityKind> SupportedKinds = new HashSet<EntityKind>
+        public FeedbackReceiverId(Guid id) 
+            : base(EntityKind.FeedbackReceiver, id)
         {
-            EntityKind.FeedbackReceiver
-        };
-        
-        public FeedbackReceiverId(EntityKind kind, Guid id) 
-            : base(kind, id)
-        {
-            kind.ThrowIfInvalidKind(SupportedKinds);
         }
+        
+        public static FeedbackReceiverId NewId() => new(Guid.NewGuid());
     }
 }

@@ -1,10 +1,10 @@
-using Zhalobobot.Common.Models.PersonsCommon;
+using Zhalobobot.Common.Models.UsersCommon;
 
 namespace Zhalobobot.Common.Models.FeedbackReceiver
 {
     public record FeedbackReceiver(
         FeedbackReceiverId Id,
-        PersonName? Name,
+        UserName? Name,
         ContactInformation ContactInformation
     ); // Union -> [Union, Receiver]
 }

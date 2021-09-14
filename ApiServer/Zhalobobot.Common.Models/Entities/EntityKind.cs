@@ -4,6 +4,7 @@ namespace Zhalobobot.Common.Models.Entities
     {
         FeedbackProvider = 1,
         FeedbackReceiver = 2,
+        Event = 3,
         
         Reserved = uint.MaxValue
     }

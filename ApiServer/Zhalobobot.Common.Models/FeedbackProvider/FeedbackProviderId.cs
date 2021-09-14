@@ -1,21 +1,15 @@
 using System;
-using System.Collections.Generic;
 using Zhalobobot.Common.Models.Entities;
-using Zhalobobot.Common.Models.Helpers;
 
 namespace Zhalobobot.Common.Models.FeedbackProvider
 {
     public class FeedbackProviderId : EntityId
     {
-        private static readonly IReadOnlyCollection<EntityKind> SupportedKinds = new HashSet<EntityKind>
+        public FeedbackProviderId(Guid id) 
+            : base(EntityKind.FeedbackProvider, id)
         {
-            EntityKind.FeedbackProvider
-        };
-
-        public FeedbackProviderId(EntityKind kind, Guid id) 
-            : base(kind, id)
-        {
-            kind.ThrowIfInvalidKind(SupportedKinds);
         }
+        
+        public static FeedbackProviderId NewId() => new(Guid.NewGuid());
     }
 }
