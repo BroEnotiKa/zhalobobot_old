@@ -1,4 +1,4 @@
-using Zhalobobot.Common.Models.FeedbackReceiver;
+using Zhalobobot.Common.Models.User;
 
 namespace Zhalobobot.Common.Models.Events
 {
@@ -7,6 +7,6 @@ namespace Zhalobobot.Common.Models.Events
         string EventName,
         string Description,
         EventType Type,
-        FeedbackReceiverId CreatedBy
+        UserId CreatedBy
     );
 }

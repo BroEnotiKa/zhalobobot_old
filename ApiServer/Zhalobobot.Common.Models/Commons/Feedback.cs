@@ -1,13 +1,13 @@
 using System;
-using Zhalobobot.Common.Models.FeedbackProvider;
-using Zhalobobot.Common.Models.FeedbackReceiver;
+using Zhalobobot.Common.Models.Events;
+using Zhalobobot.Common.Models.User;
 
 namespace Zhalobobot.Common.Models.Commons
 {
     public record Feedback(
-        FeedbackProviderId Provider,
-        FeedbackReceiverId Receiver,
+        UserId Provider,
+        EventId Event,
         string Message,
-        TimeSpan CreatedAt
+        DateTime CreatedAt
     );
 }

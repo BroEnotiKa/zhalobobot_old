@@ -1,6 +1,6 @@
 using Zhalobobot.Common.Models.Primitives;
 
-namespace Zhalobobot.Common.Models.UsersCommon
+namespace Zhalobobot.Common.Models.User
 {
     public class FirstName : CaseToleranceString
     {

@@ -1,6 +1,6 @@
-namespace Zhalobobot.Common.Models.UsersCommon
+namespace Zhalobobot.Common.Models.User
 {
-    public record ContactInformation(string Contact, string? Phone);
+    public record ContactInformation(string Login, string? Phone);
     
     /*
      * студент, препод, ... -> Person

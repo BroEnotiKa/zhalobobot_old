@@ -2,9 +2,9 @@ namespace Zhalobobot.Common.Models.Entities
 {
     public enum EntityKind : uint
     {
-        FeedbackProvider = 1,
-        FeedbackReceiver = 2,
-        Event = 3,
+        User = 0,
+        Feedback = 1,
+        Event = 2,
         
         Reserved = uint.MaxValue
     }
