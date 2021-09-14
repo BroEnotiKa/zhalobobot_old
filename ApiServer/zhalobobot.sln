@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhalobobot.Common.Models", "Zhalobobot.Common.Models\Zhalobobot.Common.Models.csproj", "{4387FFA1-46BA-46A7-A1D8-DDFA74D31F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhalobobot.Api.Server", "Zhalobobot.Api.Server\Zhalobobot.Api.Server.csproj", "{8628BE1E-857D-48C9-ABC6-7FEFFA7DDD90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhalobobot.Common.Helpers", "Zhalobobot.Common.Helpers\Zhalobobot.Common.Helpers.csproj", "{114D6E75-F671-40F2-A65B-71BD6693703C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhalobobot.Tests", "Zhalobobot.Tests\Zhalobobot.Tests.csproj", "{94A0CFDF-6F9E-40B2-8DA8-D8FAB63A919E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhalobobot.Storage.PostgreSQL", "Zhalobobot.Storage.PostgreSQL\Zhalobobot.Storage.PostgreSQL.csproj", "{E18B6E79-D97E-45FA-B8B5-59935492473D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4387FFA1-46BA-46A7-A1D8-DDFA74D31F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4387FFA1-46BA-46A7-A1D8-DDFA74D31F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4387FFA1-46BA-46A7-A1D8-DDFA74D31F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4387FFA1-46BA-46A7-A1D8-DDFA74D31F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8628BE1E-857D-48C9-ABC6-7FEFFA7DDD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8628BE1E-857D-48C9-ABC6-7FEFFA7DDD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8628BE1E-857D-48C9-ABC6-7FEFFA7DDD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8628BE1E-857D-48C9-ABC6-7FEFFA7DDD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114D6E75-F671-40F2-A65B-71BD6693703C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114D6E75-F671-40F2-A65B-71BD6693703C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114D6E75-F671-40F2-A65B-71BD6693703C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114D6E75-F671-40F2-A65B-71BD6693703C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A0CFDF-6F9E-40B2-8DA8-D8FAB63A919E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A0CFDF-6F9E-40B2-8DA8-D8FAB63A919E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A0CFDF-6F9E-40B2-8DA8-D8FAB63A919E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A0CFDF-6F9E-40B2-8DA8-D8FAB63A919E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18B6E79-D97E-45FA-B8B5-59935492473D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18B6E79-D97E-45FA-B8B5-59935492473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18B6E79-D97E-45FA-B8B5-59935492473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18B6E79-D97E-45FA-B8B5-59935492473D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
